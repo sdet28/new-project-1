@@ -8,4 +8,10 @@ public class CreateContactTest {
 	{
 		System.out.println("contact created");
 	}
+	
+	@Test (groups ="smokeTest")
+	public void modifyContactTest()
+	{
+		System.out.println("modify contact");
+	}
 }
