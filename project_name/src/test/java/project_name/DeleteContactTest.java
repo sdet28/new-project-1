@@ -8,5 +8,11 @@ public class DeleteContactTest {
 	{
 		System.out.println("contact deleted created");
 	}
+	
+	@Test(groups ="regression")
+	public void deletedContactTest()
+	{
+		System.out.println("contact deleted");
+	}
 
 }
