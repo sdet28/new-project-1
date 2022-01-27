@@ -12,6 +12,6 @@ public class CreateContactTest {
 	@Test (groups ="smokeTest")
 	public void modifyContactTest()
 	{
-		System.out.println("modify contact");
+		System.out.println("modify created contact");
 	}
 }
