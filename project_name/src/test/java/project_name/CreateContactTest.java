@@ -14,4 +14,10 @@ public class CreateContactTest {
 	{
 		System.out.println("modify contact");
 	}
+	
+	@Test (groups ="smokeTest")
+	public void secondmodifyContactTest()
+	{
+		System.out.println("second modify contact");
+	}
 }
