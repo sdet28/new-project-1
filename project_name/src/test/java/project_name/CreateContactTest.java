@@ -20,4 +20,10 @@ public class CreateContactTest {
 	{
 		System.out.println("second modify contact");
 	}
+	
+	@Test (groups ="smokeTest")
+	public void thirdmodifyContactTest()
+	{
+		System.out.println("third modify contact");
+	}
 }
